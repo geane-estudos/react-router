@@ -13,7 +13,8 @@
 - [4. Rota Dinâmica](#4-rota-dinâmica)
 - [4.1. useParams](#41-useparams)
 - [4.2. useLocation](#42-uselocation)
-- [5. useLocation](#42-uselocation)
+- [5.Nested Routes](#5-nested-routes)
+- [5.1. Outlet](#51-outlet)
 
 ### 1. React Router Dom
 É uma extensão que permite gerenciarmos as rotas do React.
