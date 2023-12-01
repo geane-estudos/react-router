@@ -13,8 +13,9 @@
 - [4. Rota Dinâmica](#4-rota-dinâmica)
 - [4.1. useParams](#41-useparams)
 - [4.2. useLocation](#42-uselocation)
-- [5.Nested Routes](#5-nested-routes)
+- [5. Nested Routes](#5-nested-routes)
 - [5.1. Outlet](#51-outlet)
+- [6. Head](#6-head)
 
 ### 1. React Router Dom
 É uma extensão que permite gerenciarmos as rotas do React.
@@ -44,3 +45,6 @@ Retorna o objeto location, com diversas informações sobre a rota atual, como o
 Utilizamos nested routes quando precisamos de rotas dentro de rotas. Como por exemplo: perfil/editar e perfil/certificados e etc. Utilizamos o \* para definir que existem outras rotas dentro.
 ### 5.1 Outlet
 Outra forma é definindo todos as rotas diretamente no App e utilizar o component Outlet para mostrarmos a rota.
+
+### 6. Head
+No React não temos acesso direto as tags e informações do Head. Porém com o uso de rotas é essêncial realizar a mudança do título e descrição para cada rota. Podemos fazer isso através de um componente ou custom hook.
