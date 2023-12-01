@@ -5,6 +5,8 @@ import Home from './Home';
 import About from './About';
 import Header from './Header';
 import NaoEncontrada from './NaoEncontrada';
+import Login from './Login';
+import Produto from './Produto';
 
 function App() {
   return <BrowserRouter>
@@ -12,6 +14,8 @@ function App() {
   <Routes>
     <Route path='/' element={<Home />}/>
     <Route path='/sobre' element={<About />}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='produto/:id/*' element={<Produto/>}/>
     <Route path='*' element={<NaoEncontrada/>}/>
   </Routes>
   </BrowserRouter>
